@@ -7,7 +7,10 @@ import node from "../assets/node.png";
 import react from "../assets/react.png";
 import tailwind from "../assets/tailwind.png";
 import bootstrap from "../assets/bootstrap (1).png";
-import { FaGithub } from "react-icons/fa";
+import php from "../assets/php_PNG10.png";
+import git from "../assets/git.jpg";
+import laravel from "../assets/laravel.png"
+import docker from "../assets/docker.png"
 
 const Skills = () => {
   return (
@@ -19,7 +22,7 @@ const Skills = () => {
           <p className="py-4 text-white">These are technologies I've worked with</p>
         </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 gap-4 text-center py-8 ">
+        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8 ">
           <div className="shadow-md shadow-[#040c16] hover:scale-110 hover:bg-[#7cc5d9]  duration-500 ">
             <img src={html} alt="HTML Icon" className="w-21 item-center max-auto p-3" />
             <p className="my-4 text-white">HTML</p>
@@ -49,8 +52,20 @@ const Skills = () => {
             <p className="my-4  text-white">Bootstrap</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 hover:bg-[#7cc5d9]  duration-500 ">
-            <FaGithub size={150} className="sm:items-center "/>
+            <img src={git} alt="Github Icon" className="w-21 item-center max-auto p-3" />
             <p className="my-4  text-white">Github</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 hover:bg-[#7cc5d9]  duration-500 ">
+            <img src={php} alt="PHP Icon" className="w-21 item-center max-auto p-3" />
+            <p className="my-4  text-white">PHP</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 hover:bg-[#7cc5d9]  duration-500 ">
+            <img src={laravel} alt="PHP Icon" className="w-21 item-center max-auto p-3" />
+            <p className="my-4  text-white">Laravel</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 hover:bg-[#7cc5d9]  duration-500 ">
+            <img src={docker} alt="PHP Icon" className="w-21 item-center max-auto p-3" />
+            <p className="my-4  text-white">Docker</p>
           </div>
         </div>
       </div>

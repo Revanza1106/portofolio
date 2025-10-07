@@ -41,7 +41,11 @@ const Navbar = () => {
           Portofolio
         </Link>
         </li>
-       
+        <li>
+        <Link className="hover:text-[#7cc5d9]"   to="contact"  smooth={true} duration={500} >
+          Contact
+        </Link>
+        </li>
       </ul>
 
       {/* Humbergar menu */}
@@ -77,19 +81,16 @@ const Navbar = () => {
           Portofolio
         </Link>
         </li>
+        <li className="py-6 text-4xl" >
+        <Link to="contact" className="hover:text-[#7cc5d9]" onClick={handleClick}   smooth={true}  duration={500} >
+          Contact
+        </Link>
+        </li>
       </ul>
 
       {/* Social Icon */}
       <div className=" hidden lg:flex flex fixed flex-col top-[35%] left-0 ">
         <ul>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-500 bg-red-400">
-            <a
-              className="flex justify-between items-center w-full text-gray-300"
-              href="https://instagram.com/revnzaz1106?igshid=MzNlNGNkZWQ4Mg=="
-            >
-              Instagram <FaInstagram size={30} />
-            </a>
-          </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-500 bg-blue-700">
             <a
               className="flex justify-between items-center w-full text-gray-300"
@@ -104,14 +105,6 @@ const Navbar = () => {
               href="https://github.com/Revanza1106"
             >
               Github <FaGithub size={30} />
-            </a>
-          </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-500 bg-green-500">
-            <a
-              className="flex justify-between items-center w-full text-gray-300"
-              href="/"
-            >
-              Email <HiOutlineMail size={30} />
             </a>
           </li>
         </ul>

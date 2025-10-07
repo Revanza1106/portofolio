@@ -21,7 +21,7 @@ const About = () => {
             <h1 className="text-4xl sm:text-5xl font-bold text-[#ccd6f6]">
               Revanza Firdaus
             </h1>
-            <p className="text-[#8992b0] max-w ml-1">I'm a Front End Developer focused on building responsive web aplication.
+            <p className="text-[#8992b0] max-w ml-1">passionate about crafting responsive, user-friendly, and scalable web applications.
         </p>
           </div>
           {/* about pic */}

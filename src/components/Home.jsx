@@ -14,17 +14,19 @@ const Home = () => {
           Revanza Firdaus
           </h1>
         <h2 className="text-4xl sm:text-7xL font-bold text-[#8992b0] ml-1">
-          I'm a Frontend Developer
+          I'm a Fullstact Developer
           </h2>
-        <p className="text-[#8992b0] py-1 max-w ml-1">I'm a Front End Developer focused on building responsive web aplication.
+        <p className="text-[#8992b0] py-1 max-w ml-1">passionate about crafting responsive, user-friendly, and scalable web applications.
         </p>
 
         <div className="">
+          <Link to="About" smooth={true} duration={500}>
           <button className="text-white group border-2 px-6 py-3 my-2 ml-1 flex items-center hover:bg-[#7cc5d9] hover:border-[#7cc5d9]">View More 
           <span className="group-hover:rotate-90 duration-200">
           <HiArrowNarrowRight className="ml-3"/>
           </span>
           </button>
+          </Link>
         </div>
       </div>
     </div>
